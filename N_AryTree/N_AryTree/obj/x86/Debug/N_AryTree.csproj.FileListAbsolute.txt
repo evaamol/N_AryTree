@@ -1,0 +1,6 @@
+/Users/Eva/Projects/N_AryTree/N_AryTree/bin/Debug/N_AryTree.exe
+/Users/Eva/Projects/N_AryTree/N_AryTree/bin/Debug/N_AryTree.pdb
+/Users/Eva/Projects/N_AryTree/N_AryTree/obj/x86/Debug/N_AryTree.csprojAssemblyReference.cache
+/Users/Eva/Projects/N_AryTree/N_AryTree/obj/x86/Debug/N_AryTree.csproj.CoreCompileInputs.cache
+/Users/Eva/Projects/N_AryTree/N_AryTree/obj/x86/Debug/N_AryTree.exe
+/Users/Eva/Projects/N_AryTree/N_AryTree/obj/x86/Debug/N_AryTree.pdb

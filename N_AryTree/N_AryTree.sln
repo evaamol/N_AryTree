@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "N_AryTree", "N_AryTree\N_AryTree.csproj", "{EB3023F3-0C2E-4693-BC36-7DF3AC721BC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "N_AryTree_TEST", "N_AryTree_TEST\N_AryTree_TEST.csproj", "{007F0B3D-5F59-4863-AC06-3D1A3E050E00}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EB3023F3-0C2E-4693-BC36-7DF3AC721BC3}.Debug|x86.ActiveCfg = Debug|x86
+		{EB3023F3-0C2E-4693-BC36-7DF3AC721BC3}.Debug|x86.Build.0 = Debug|x86
+		{EB3023F3-0C2E-4693-BC36-7DF3AC721BC3}.Release|x86.ActiveCfg = Release|x86
+		{EB3023F3-0C2E-4693-BC36-7DF3AC721BC3}.Release|x86.Build.0 = Release|x86
+		{007F0B3D-5F59-4863-AC06-3D1A3E050E00}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{007F0B3D-5F59-4863-AC06-3D1A3E050E00}.Debug|x86.Build.0 = Debug|Any CPU
+		{007F0B3D-5F59-4863-AC06-3D1A3E050E00}.Release|x86.ActiveCfg = Release|Any CPU
+		{007F0B3D-5F59-4863-AC06-3D1A3E050E00}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
