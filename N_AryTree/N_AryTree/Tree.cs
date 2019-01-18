@@ -124,7 +124,6 @@ namespace N_AryTree
                 {
                     TreeNode<T> ParentNode = n;
                     List<T> sumPartial = new List<T>();
-                    //List<T> sum = new List<T>();
 
                     do
                     {
