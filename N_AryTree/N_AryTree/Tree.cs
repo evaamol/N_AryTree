@@ -117,41 +117,44 @@ namespace N_AryTree
             StringBuilder partialString = new StringBuilder();
             List<T> sumList = new List<T>();
 
+
             foreach (var n in treeTotal)
             {
                 if(n.Child.Count == 0)
                 {
-                    TreeNode<T> current = n;
-                    List<T> sum = new List<T>();
+                    TreeNode<T> ParentNode = n;
+                    List<T> sumPartial = new List<T>();
+                    //List<T> sum = new List<T>();
 
-                    while(current.Parent != null)
+                    do
                     {
-                        sum.Add(current.Value);
-                        current = current.Parent;
-                    }
+                        sumPartial.Add(ParentNode.Value);
+                        ParentNode = ParentNode.Parent;
+                    } while (ParentNode.Parent != null);
 
-                    sum.Add(headOfTreeNode.Value);
-                    sum.Reverse();
+                    sumPartial.Add(headOfTreeNode.Value);
+                    sumPartial.Reverse();
 
                     //To add whether it is an int, string, double, or whatsoever. Dynamic.
                     //Note: References > Microsoft.Csharp must be added to the project
-                    dynamic total = sum[0];
-                    sum.Remove(sum[0]);
+                    dynamic firstValue = sumPartial[0];
+                    sumPartial.Remove(sumPartial[0]);
 
-                    foreach (var val in sum)
+                    foreach (T leaf in sumPartial)
                     {
-                        total = total + val;
+                        firstValue = firstValue + leaf;
                     }
 
-                    sumList.Add(total);
+
+                    sumList.Add(firstValue);
 
                 }
             }
 
             //Print with ,
-            foreach (var sum in sumList)
+            foreach (T vari in sumList)
             {
-                partialString.Append(", " + sum.ToString());
+                partialString.Append(", " + vari.ToString());
             }
 
             string sumString = partialString.ToString();
